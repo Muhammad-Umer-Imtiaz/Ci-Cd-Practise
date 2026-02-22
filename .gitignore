@@ -1,0 +1,48 @@
+# Node.js dependencies
+/node_modules
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Optional npm cache folder
+/.npm
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+**/Dockerfile.*
+**/docker-compose.override.yml
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Optional lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE / Editors
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+.dockerignore
